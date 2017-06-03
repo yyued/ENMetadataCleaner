@@ -1,9 +1,9 @@
 ### There are only a few layers obviously, why the PSD file will be so big?
 
 ***
-There are just a few layers, did not add any big picture, but the PSD files are unexpectedly big, And computers are often overloaded, even you can not preview the PSD file.
+There are just a few layers, do not add any big picture, but the PSD files are unexpectedly big, And computers are often overloaded, even you can not preview the PSD file.
 
-In fact you can see the culprit：
+In fact you can see the culprit:
 
 ```
 「 文件 」——「 文件简介 」——「 原始数据 」
@@ -11,14 +11,14 @@ In fact you can see the culprit：
 
 ![rdf:li](https://pic3.zhimg.com/v2-7de17a5467833e87f67e8996c565307e_b.png)
 
-The data showed by the picture is the history of image operation data, which is called metadata. There are probably tens of thousands of the data that we did not use. The similar metadata is also available in the layers。
-There are some script code or tools on the Internet, which only clean up the outermost metadata, not much effect. 
+The data showed by the picture is the history of image operation data, which is called metadata. There are probably tens of thousands of the data that we did not use. The similar metadata is also available in the layers.
+There are some script code or tools on the Internet, which only clean up the outermost metadata, without much effect.<br>
 ENMetadataCleaner can help you clean up the metadata completely.
 
 
 #### Instructions
 
-* [Download the zip](https://github.com/yyued/ENMetadataCleaner/archive/master.zip)；
+* [Download the zip](https://github.com/yyued/ENMetadataCleaner/archive/master.zip);
 * Open the PSD file that you need to clean up the metadata in Photoshop;
 * 「 Menu 」—— 「 File 」——「 Script 」——「 Open... 」;
 * Select the ENMetadataCleaner.jsx;
