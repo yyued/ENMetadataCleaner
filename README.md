@@ -1,3 +1,40 @@
+### There are only a few layers obviously, why the PSD file will be so big?
+
+***
+There are just a few layers, did not add any big picture, but the PSD files are unexpectedly big, And computers are often overloaded, even you can not preview the PSD file.
+
+In fact you can see the culprit：
+
+```
+「 文件 」——「 文件简介 」——「 原始数据 」
+```
+
+![rdf:li](https://pic3.zhimg.com/v2-7de17a5467833e87f67e8996c565307e_b.png)
+
+The data showed by the picture is the history of image operation data, which is called metadata. There are probably tens of thousands of the data that we did not use. The similar metadata is also available in the layers。
+There are some script code or tools on the Internet, which only clean up the outermost metadata, not much effect. 
+ENMetadataCleaner can help you clean up the metadata completely.
+
+
+#### Instructions
+
+* [Download the zip](https://github.com/yyued/ENMetadataCleaner/archive/master.zip)；
+* Open the PSD file that you need to clean up the metadata in Photoshop;
+* 「 Menu 」—— 「 File 」——「 Script 」——「 Open... 」;
+* Select the ENMetadataCleaner.jsx;
+* Wait a moment;
+* Finish clean up.
+
+#### Description
+* The waiting time depends on your file size and computer configuration, which typically takes a few minutes.
+* It is worth.
+
+
+```
+---------------- 中英文分割线 ------------------
+```
+
+
 ### 明明只有几个图层 PSD 文件总是动不动以 G 为单位？
 
 ***
@@ -14,6 +51,7 @@
 
 图片展示的这堆东西，是被保存在文档中的历史图像的操作数据，被称为元数据，有数千行之多，并且子图层中也存在，可以说是子子孙孙，无穷匮也。
 网上有一些脚本代码或者工具，只清除了最外层的数据，并没有什么太大的效果，ENMetadataCleaner 是个能够完全清除操作信息的脚本。
+
 
 #### 使用方法
 
