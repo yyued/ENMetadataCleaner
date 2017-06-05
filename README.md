@@ -6,10 +6,10 @@ There are just a few layers, do not add any big picture, but the PSD files are u
 In fact you can see the culprit:
 
 ```
-「 文件 」——「 文件简介 」——「 原始数据 」
+「 File 」——「 File Info... 」——「 Row Data 」
 ```
 
-![rdf:li](https://pic3.zhimg.com/v2-7de17a5467833e87f67e8996c565307e_b.png)
+![rdf:li](http://or1yzhu6r.bkt.clouddn.com/WechatIMG205.png)
 
 The data showed by the picture is the history of image operation data, which is called metadata. There are probably tens of thousands of the data that we did not use. The similar metadata is also available in the layers.
 There are some script code or tools on the Internet, which only clean up the outermost metadata, without much effect.<br>
@@ -20,7 +20,7 @@ ENMetadataCleaner can help you clean up the metadata completely.
 
 * [Download the zip](https://github.com/yyued/ENMetadataCleaner/archive/master.zip);
 * Open the PSD file that you need to clean up the metadata in Photoshop;
-* 「 Menu 」—— 「 File 」——「 Script 」——「 Open... 」;
+* 『File』 >>> 『Scripts』 >>> 『Browse...』;
 * Select the ENMetadataCleaner.jsx;
 * Wait a moment;
 * Finish clean up.
@@ -44,7 +44,7 @@ ENMetadataCleaner can help you clean up the metadata completely.
 罪魁祸首其实看得见摸得着：
 
 ```
-「 文件」——「 文件简介」——「原始数据 」
+「 文件 」——「 文件简介 」——「 原始数据 」
 ```
 
 ![rdf:li](https://pic3.zhimg.com/v2-7de17a5467833e87f67e8996c565307e_b.png)
